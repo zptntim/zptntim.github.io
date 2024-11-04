@@ -1,0 +1,100 @@
+            <!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Güzellik Bakım Salonu  - [ZEİNA]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #ffffff;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #2C090F; /* Mor rengi */
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #ac6701 5px solid; /* Turuncu rengi */
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .main-content {
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .main-content h2 {
+            color: #7801ff; /* Mor rengi */
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        .contact-info a {
+            color: #360c69; /* Mor rengi */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background: #7300ffb2; /* Mor rengi */
+            color: #000000;
+            padding: 10px;
+            text-align: center;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        /* Mobil uyumluluk */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Güzellik Bakım Salonu- Zeina</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <h2>Hakkımda</h2>
+            <p>Merhaba! Biz [Zeina Güzellik Salonu], profesyonel bir güzellik salonuyuz. Yılların deneyimi ile sizlerin cildinize bakım yapıp yenileyip, istediğiniz görünümü kazandırabilirsiniz.</p>
+            
+            <h2>Hizmetlerim</h2>
+            <ul>
+                <li>Manikür-Pedikür</li>
+                <li>Lazer Epilasyon</li>
+                <li>Cilt germe</li>
+                <li>Akne tedavisi</li>
+                <li>Kaş kontrolü</li>
+                <li>Dövme Silme</li>
+            </ul>
+            
+            <h2>İletişim</h2>
+            <p>İşletmemiz ile iletişime geçmek için bize buradan ulaşabilirsiniz:</p>
+            <div class="contact-info">
+                <a href="Telefon:220807040">220807040</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 [ZEİNA] - Tüm Hakları Saklıdır</p>
+    </footer>
+</body>
+</html>
